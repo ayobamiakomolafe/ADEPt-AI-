@@ -180,19 +180,19 @@ st.write('\n')
 button=st.sidebar.button('Predict Reactions')
 
 #Loading the encoder pickle files
-pkl_file = open('Dependencies\Country.pkl', 'rb')
+pkl_file = open('Dependencies/Country.pkl', 'rb')
 Country= pickle.load(pkl_file) 
 pkl_file.close()
 
-pkl_file = open('Dependencies\Drug.pkl', 'rb')
+pkl_file = open('Dependencies/Drug.pkl', 'rb')
 Drug= pickle.load(pkl_file) 
 pkl_file.close()
 
-pkl_file = open('Dependencies\Drug_Form.pkl', 'rb')
+pkl_file = open('Dependencies/Drug_Form.pkl', 'rb')
 Drug_Form= pickle.load(pkl_file) 
 pkl_file.close()
 
-pkl_file = open('Dependencies\Route.pkl', 'rb')
+pkl_file = open('Dependencies/Route.pkl', 'rb')
 Route_of_Administration= pickle.load(pkl_file) 
 pkl_file.close()
 
