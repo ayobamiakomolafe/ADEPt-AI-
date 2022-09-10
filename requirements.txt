@@ -2,4 +2,4 @@ catboost
 pandas
 Image
 plotly
-streamlit >= 1.9.2
+
