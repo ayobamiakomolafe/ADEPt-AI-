@@ -1,5 +1,4 @@
 catboost
-pickle
 pandas
 Image
 plotly
