@@ -2,4 +2,4 @@ catboost
 pandas
 Image
 plotly
-sklearn
+scikit-learn
